@@ -56,5 +56,11 @@ function handleButtonClick() {
 
 message.textContent = "You clicked the button " + clickCount + " times";
 
+const clickButton → const button
+Rename variables for clarity
+
+
+
+
 
 
