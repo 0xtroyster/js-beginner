@@ -30,4 +30,6 @@ const title = document.getElementById("title");
 title.textContent = "JavaScript Beginner Practice";
 
 const clickButton = document.getElementById("clickBtn");
+console.log(clickButton);
+
 
