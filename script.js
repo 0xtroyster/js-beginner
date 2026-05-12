@@ -20,3 +20,8 @@ function isAdult(age) {
 }
 
 console.log(isAdult(age));
+
+let hobbies = ["reading", "coding", "music"];
+
+console.log(hobbies);
+console.log(hobbies[0]);
