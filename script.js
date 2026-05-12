@@ -32,4 +32,9 @@ title.textContent = "JavaScript Beginner Practice";
 const clickButton = document.getElementById("clickBtn");
 console.log(clickButton);
 
+clickButton.addEventListener("click", function () {
+  console.log("Button clicked");
+});
+
+
 
