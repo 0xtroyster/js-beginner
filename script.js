@@ -36,5 +36,11 @@ clickButton.addEventListener("click", function () {
   console.log("Button clicked");
 });
 
+function handleButtonClick() {
+  console.log("Button clicked");
+}
+
+clickButton.addEventListener("click", handleButtonClick);
+
 
 
