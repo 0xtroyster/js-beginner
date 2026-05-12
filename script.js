@@ -48,5 +48,11 @@ function handleButtonClick() {
   message.textContent = "Button was clicked";
 }
 
+let clickCount = 0;
+function handleButtonClick() {
+  clickCount = clickCount + 1;
+  message.textContent = "Clicked " + clickCount + " times";
+}
+
 
 
