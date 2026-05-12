@@ -54,5 +54,7 @@ function handleButtonClick() {
   message.textContent = "Clicked " + clickCount + " times";
 }
 
+message.textContent = "You clicked the button " + clickCount + " times";
+
 
 
