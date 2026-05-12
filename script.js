@@ -42,5 +42,11 @@ function handleButtonClick() {
 
 clickButton.addEventListener("click", handleButtonClick);
 
+const message = document.getElementById("message");
+
+function handleButtonClick() {
+  message.textContent = "Button was clicked";
+}
+
 
 
