@@ -25,3 +25,7 @@ let hobbies = ["reading", "coding", "music"];
 
 console.log(hobbies);
 console.log(hobbies[0]);
+
+const title = document.getElementById("title");
+title.textContent = "JavaScript Beginner Practice";
+
